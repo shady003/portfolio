@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/5171ffa279.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="blank"></div>
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Port</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span>MERN Stack </span>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Saurabh</span> Yadav <br />
+            From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!------------------about--------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              amet ea nisi tempora velit, ducimus praesentium obcaecati delectus
+              vero enim quaerat id saepe corrupti ab, maxime est eum natus
+              architecto!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('certificate')">
+                Certificates
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML/CSS</span><br />Intermediate</li>
+                <li><span>JavaScript</span><br />Intermediate</li>
+                <li><span>C++</span><br />Data Structures</li>
+                <li><span>Python</span><br />Intermediate</li>
+                <li>
+                  <span>Web Development</span><br />MERN Stack Web Developer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certificate">
+              <ul>
+                <li><span>No </span><br />MERN Stack Web Developer</li>
+                <li><span>Web Development</span><br />Web app Developer</li>
+                <li><span>Web Development</span><br />Web app Developer</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021 - 2024</span><br />B.C.A (75%)</li>
+                <li><span>2024 - 2026</span><br />M.C.A.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------services----------------------------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">
+          My Services
+        </h1>
+          <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+              <h2>Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                numquam?
+              </p>
+              <a href="">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+              <h2>Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                numquam?
+              </p>
+              <a href="">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+              <h2>Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                numquam?
+              </p>
+              <a href="">learn more</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Portfolio
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://picsum.photos/200/300" alt="image">
+                    <div class="layer">
+                        <h3>Socal Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, cumque?</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://picsum.photos/200/300" alt="image">
+                    <div class="layer">
+                        <h3>Socal Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, cumque?</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://picsum.photos/200/300" alt="image">
+                    <div class="layer">
+                        <h3>Socal Media</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, cumque?</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+                <h1 class="sub-title">
+                  Contact Me</h1>
+                  <p> <i class="fa-solid fa-envelope"></i> saurabhyadav9909@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i> +91-9140071837</p>
+                  <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/saurabhyadav007"><i class="fa-brands fa-linkedin"></i> </a>
+                  </div>
+                <a href="" class="btn btn2" download>Download Resume</a>
+          </div>
+          <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" placeholder="Name" name="name"  required/>
+                  <input type="email" placeholder="your email" name="email" required/>
+                  <textarea name="message"  cols="30" rows="7" placeholder="type your query..."></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright section</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      var opentab = (tabname) => {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      };
+      var sidemenu = document.getElementById('sidemenu');
+      var openmenu = ()=>{
+        sidemenu.style.right= "0";
+
+      }
+      var closemenu = ()=>{
+        sidemenu.style.right= "-200px";
+        
+      }
+     </script>
+ 
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxcATtXh-WMG-KxL1dIeY_fmu8knT3tpqkckXieSGcyVFBrH7euCUy5XcdWvwFfRqNQyQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg')
+
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML='Submitted!'
+            setTimeout(() => {msg.innerHTML=''},5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
