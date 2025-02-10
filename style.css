@@ -20,17 +20,20 @@ body{
     padding: 10px 10px;
 }
 .container{
-    margin-left: 0;
+    margin-left: 10vh;
     padding: 10px 10px;
 }
 
 .logo{
-    height: 20vh;
+    height: 10vh;
     width: 140px;
     background: transparent;
 }
 nav{
+    background-color: #080808;
+    position: fixed;
     display: flex;
+    height: 10vh;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -393,4 +396,7 @@ nav .fa-solid{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+#about , #services , #portfolio , #contact{
+    padding-top: 20vh;
 }
