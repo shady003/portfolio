@@ -334,7 +334,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 768px) {
     #header{
-        background-image: url(./images/Logo.png);
+        background-image: url(./images/Logo.jpeg);
     }
     .header-text{
         font-size: 16px;
